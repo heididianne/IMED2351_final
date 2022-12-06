@@ -1,6 +1,7 @@
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
+
 class SnakePart{
     constructor(x,y){
         this.x = x;
@@ -172,6 +173,7 @@ function keyDown(event){
         xVelocity = 1;
     }
 }
+
 
 drawGame();
 

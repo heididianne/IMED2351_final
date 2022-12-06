@@ -5,7 +5,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: yellowgreen;
+    background-image: linear-gradient(to bottom right, green, yellowgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
 }
+
 canvas{
+    
     box-shadow: black 20px 10px 50px;
+}
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+.instructions {
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
 }
